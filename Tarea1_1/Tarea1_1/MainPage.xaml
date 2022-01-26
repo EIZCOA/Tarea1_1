@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea1_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Tarea 1.1 - Programación Movil II │ UTH" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry x:Name="edtnum1" Keyboard="Numeric" Placeholder="Ingrese primer numero" VerticalOptions="Center" />
+        <Entry x:Name="edtnum2" Keyboard="Numeric" Placeholder="Ingrese segundo numero" VerticalOptions="Center" />
+        
+        <Button x:Name="btnsuma" Text="Suma" Clicked="btnsuma_Clicked"></Button>
+        <Button x:Name="btnresta" Text="Resta" Clicked="btnresta_Clicked"></Button>
+        <Button x:Name="btndivision" Text="Division" Clicked="btndivision_Clicked"></Button>
+        <Button x:Name="btnmultiplica" Text="Multiplicacion" Clicked="btnmultiplica_Clicked"></Button>
+
+
+    </StackLayout>
+
+</ContentPage>
